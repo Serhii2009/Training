@@ -1,15 +1,11 @@
-:root {
-  --logo-color: #4d5ae5;
-  --litext-color: #434455;
-}
-
+/*
 img {
   display: block;
 }
 
 body {
   color: #434455;
-  background-color: #ffffff;
+  background-color: #121212;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -18,7 +14,6 @@ body {
   text-decoration: none;
 }
 
-/* Глобальне скидання стилів */
 h1,
 h2,
 h3,
@@ -35,14 +30,14 @@ ul {
   padding-left: 0;
 }
 
-/*-----Mobile header-----*/
+
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
     display: none;
   }
 }
-
+/*
 .mobile-menu {
   padding: 24px 0;
   line-height: 0;
@@ -243,7 +238,7 @@ ul {
 }
 
 /*------ -----*/
-
+/*
 .second-link {
   color: #2e2f42;
   font-weight: 500;
@@ -277,11 +272,7 @@ ul {
   color: #404bbf;
 }
 
-/* --------- */
 
-/* --------- */
-
-/* --------- */
 
 .two-section {
   padding: 96px 0;
@@ -330,7 +321,7 @@ ul {
   }
 }
 
-/* --------- */
+
 
 @media screen and (min-width: 1158px) {
   .second-list {
@@ -595,7 +586,7 @@ ol {
   text-decoration: none;
 }
 
-/* main screen*/
+
 
 .hero {
   background-color: #2e2f42;
@@ -732,7 +723,7 @@ ol {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-/* ---------*/
+
 
 .list .mini-list {
   background-color: #ffffff;
@@ -1158,7 +1149,6 @@ footer > .link {
   fill: var(--color-cloud);
 }
 
-/* Customers section*/
 .customers {
   padding: 120px 0;
 }
@@ -1243,7 +1233,6 @@ footer > .link {
   color: #404bbf;
 }
 
-/* Fottor icons*/
 
 @media screen and (max-width: 1157px) {
   .footer {
@@ -1358,7 +1347,7 @@ footer > .link {
   outline: none;
 }
 
-/*--------------*/
+
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .subscribe-input {
     width: 264px;
@@ -1401,7 +1390,7 @@ footer > .link {
   }
 }
 
-/*--------------*/
+
 
 .footer-subscribe-label {
   width: 100%;
@@ -1445,7 +1434,10 @@ footer > .link {
   fill: #ffffff;
   margin-left: 16px;
 }
-/* Modal window*/
+
+
+
+
 
 .backdrop {
   position: fixed;
@@ -1526,7 +1518,7 @@ footer > .link {
   fill: #ffffff;
 }
 
-/* Modal content*/
+
 
 .modal-title {
   color: #2e2f42;
@@ -1686,3 +1678,4 @@ footer > .link {
 .modal-button-submit:focus {
   background-color: #404bbf;
 }
+*/
