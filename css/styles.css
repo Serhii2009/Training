@@ -1817,6 +1817,32 @@ body {
   text-decoration: none;
 }
 
+.container {
+  max-width: 375px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding: 0 15px;
+  }
+}
+
 .mini-title {
   color: #fff;
   font-family: DM Sans;
@@ -1825,13 +1851,13 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.04em;
-  margin-left: -60px;
+  /*margin-left: -60px;*/
 }
 
 @media screen and (min-width: 767px) {
   .mini-title {
     font-size: 48px;
-    margin-left: -72px;
+    /*margin-left: -72px;*/
   }
 }
 
@@ -1876,10 +1902,10 @@ body {
     gap: 113px;
   }
 }
-/*
+
 @media screen and (min-width: 768px) {
   .mini-list {
-    width: calc((100%-100px) /);
+    width: calc((100%-100px) / 2);
   }
 }
 
