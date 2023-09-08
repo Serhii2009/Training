@@ -1784,18 +1784,18 @@ body {
   }
 } */
 
-.team {
+.our-mentors-team {
   padding: 80px;
 }
 
 @media screen and (min-width: 767px) {
-  .team {
+  .our-mentors-team {
     padding: 100px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .team {
+  .our-mentors-team {
     padding: 150px;
   }
 }
@@ -1843,7 +1843,7 @@ body {
   }
 }
 
-.mini-title {
+.our-mentors-mini-title {
   color: #fff;
   font-family: DM Sans;
   font-size: 28px;
@@ -1851,24 +1851,25 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.04em;
-  /*margin-left: -60px;*/
+  display: flex;
+  margin-left: -80px;
 }
 
 @media screen and (min-width: 767px) {
-  .mini-title {
+  .our-mentors-mini-title {
     font-size: 48px;
-    /*margin-left: -72px;*/
+    margin-left: -68px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .mini-title {
+  .our-mentors-mini-title {
     font-size: 48px;
-    margin-left: 0;
+    margin-left: -240px;
   }
 }
 
-.mentors {
+.our-mentors-mentors {
   color: #bea69e;
   margin-left: 4px;
 }
@@ -1877,7 +1878,7 @@ body {
   list-style: none;
 }
 
-.list-four {
+.our-mentors-list-four {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1886,7 +1887,7 @@ body {
 }
 
 @media screen and (min-width: 767px) {
-  .list-four {
+  .our-mentors-list-four {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1896,7 +1897,7 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-  .list-four {
+  .our-mentors-list-four {
     display: flex;
     flex-wrap: nowrap;
     gap: 113px;
@@ -1904,13 +1905,13 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .mini-list {
+  .our-mentors-mini-list {
     width: calc((100%-100px) / 2);
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .mini-list {
+  .our-mentors-mini-list {
     width: calc((100%-72px) / 4);
   }
 }
@@ -1948,15 +1949,15 @@ body {
   }
 } */
 
-.team-image {
+.our-mentors-team-image {
   border-radius: 200px;
 }
 
-.team-container {
+.our-mentors-team-container {
   gap: 4px;
 }
 
-.our-people {
+.our-mentors-our-people {
   color: #fff;
   text-align: center;
   font-family: DM Sans;
@@ -1968,7 +1969,7 @@ body {
   margin-bottom: 0;
 }
 
-.hwo-they {
+.our-mentors-hwo-they {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
   font-family: DM Sans;
