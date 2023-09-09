@@ -1807,39 +1807,29 @@ ul {
 }
 
 body {
-  color: #434455;
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
   background-color: #121212;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  text-transform: none;
-  text-decoration: none;
 }
-
 .container {
-  max-width: 375px;
-  padding-left: 16px;
-  padding-right: 16px;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-  }
+  padding: 0 20px;
+  /*min-width: 320px;*/
+  max-width: 375px;
 }
 
 @media screen and (min-width: 768px) {
   .container {
+    padding: 0 32px;
     max-width: 768px;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
-    padding: 0 15px;
+    padding: 0 100px;
+    max-width: 1280px;
   }
 }
 
